@@ -1,0 +1,68 @@
+#allDiv{
+	margin-top:120px;
+}
+
+#modifyH1, #deactivateH1, #withdrawH1{
+	font-size:20px;
+	display:inline;
+	font-weight:bold;
+}
+
+#modifyDiv, #deactivateDiv, #withdrawDiv{
+	margin:0 auto;
+	padding:15px;
+	width:500px;
+	border:1px solid lightgray;
+	margin-top:30px;
+}
+#withdrawDiv{
+	margin-top:50px;
+}
+#deactivateBtn{
+	margin-left:30px;
+}
+#modifyBtn{
+	margin-left:260px;
+}
+#withdrawBtn{
+	margin-left:300px;
+}
+#bottomTd{
+	text-align:center;
+}
+#modifyExecuteBtn{
+	margin-left:20px;
+		margin-right:30px;
+}
+#modifyExecuteBtn, #cancelBtn{
+	margin-top:20px;
+}
+form{
+	display:inline;
+}
+#modifyTable td{
+	padding:7px;
+}
+#phoneNum1, #phoneNum2, #phoneNum3{
+	width:50px;
+}
+#year, #month, #day{
+	width:50px;
+}
+#withdrawExecuteDiv, #deactivateExecuteDiv{
+	padding-top:15px;
+}
+#withdrawPwd, #inputPwdBtn{
+	margin-left:15px;
+}
+
+#withdrawConfirmDiv, #deactivateConfirmDiv{
+	padding-top:15px;
+	text-align:center;
+}
+#withdrawExecuteBtn{
+	margin-right:30px;
+}
+#withdrawConfirmBtn{
+	margin-top:20px;
+}

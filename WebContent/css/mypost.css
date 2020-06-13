@@ -1,0 +1,432 @@
+#allDiv{
+	margin-top:120px;
+}
+#writeTable, .modifyTable{
+	display:inline-block;
+}
+
+#writeDiv{
+	margin:0 auto;
+	height:250px;
+	width:500px;
+	border:1px solid lightgray;
+}
+.modifyDiv{
+	border:0px;
+}
+#writeText, .modifyText{
+	margin:20px;
+	height:140px;
+	width:460px;
+}
+.pmBtn{
+	margin-left:10px;
+	width:20px;
+	height:20px;
+	margin-right:15px;
+}
+#imageBtn, #videoBtn{
+	margin-left:40px;
+	width:30px;
+	height:30px;
+}
+#videoBtn{
+	margin-left:30px;
+	margin-right:110px;
+}
+.allBtn, .friendBtn, .secretBtn{
+	vertical-align:top;
+	margin-left:20px;
+	width:35px;
+	height:35px;
+}
+#writeTd, .modifyTd{
+	padding-left:15px;
+}
+.allTd, .friendTd, .secretTd{
+	padding-left:22px;
+	font-size:11px;
+	font-weight:bold;
+}
+.postDiv{
+	padding:5px;
+	border:1px solid lightgray;
+	width:500px;
+	margin:0 auto;
+	margin-top:30px;
+}
+.profileTd{
+	padding-top:10px;
+	padding-left:10px;
+}
+.profile{
+	width:40px;
+	height:40px;
+	vertical-align:top;
+}
+a{
+	text-decoration:none;
+	color:black;
+	font-size:12px;
+}
+.dateCommentTd{
+	color:RGB(140,140,140);
+	padding-left:10px;
+	font-size:12px;
+}
+.recommendP{
+	margin:0;
+	padding:5px;
+	font-size:12px;
+}
+#nameA{
+	margin-right:270px;
+	color:black;
+}
+#guestNameA{
+	margin-right:220px;
+	color:black;
+}
+#guestWriterA{
+	color:black;
+}
+#f1, #f2{
+	width:70px;
+	height:21px;
+	margin-left:2px;
+	position: absolute;
+	opacity:0.0;
+	filter:alpha(opacity=0);}
+}
+#f2{
+	margin-right:150px;
+}
+.likeTd{
+	font-size:12px;
+}
+.postImgDiv{
+	width:500px;
+	text-align:center;
+}
+.postImg{
+	margin:0 auto;
+	width:300px;
+	height:300px;
+}
+.recommendForm{
+	display:inline;
+}
+#editCommentImg{
+	width:10px;
+	height:15px;
+	vertical-align:center;
+}
+.deleteCommentBtn{
+	color:red;
+	background:white;
+	border:0px;
+	text-decoration:none;
+}
+#editComment{
+	margin-left:220px;
+}
+#newEditComment{
+	margin-left:310px;
+}
+.dateTd{
+	padding-left:10px;
+	margin-right:200px;
+	font-size:12px;
+	color:RGB(140,140,140);
+}
+.likeBtn,  .hateBtn{
+	width:35px;
+	height:35px;
+	margin:5px;
+}	
+.bukkuBtn{
+	width:45px;
+	height:35px;
+}
+.likeBtn{
+	margin-left:230px;
+}
+.likeNumTd{
+	padding-left:265px;
+	font-size:12px;
+	font-weight:bold;
+}
+.hateNumTd{
+	padding-left:20px;
+	font-size:12px;
+	font-weight:bold;
+}
+.likeImg, .bukkuImg, .hateImg{
+	width:30px;
+	height:30px;
+}
+.public{
+	font-size:12px;
+	padding-left:40px;
+}
+p{
+	padding:20px;
+	padding-left:15px;
+	font-size:12px;
+}
+.commentTd{
+	padding-top:10px;
+	font-size:12px;
+	font-weight:bold;
+	padding-left:15px;
+}
+.shareTd{
+	padding-top:10px;
+	padding-left:10px;
+	margin:10px;
+	font-size:12px;
+	font-weight:bold;
+}
+#postCheck{
+	background-color:white;
+	padding:10px;
+	text-align:right;
+	border:1px solid lightgray;
+	width:150px;
+	position:absolute;
+	top:120px;
+	right:50px;
+}
+.commentDiv{
+	padding:10px;
+	border:1px solid lightgray;
+	width:500px;
+	margin:0 auto;
+}
+.recommendTable{
+	display:inline-block;
+}
+.modifyPostBtn, .deletePostBtn{
+	background:white;
+	border:0px;
+}
+.modifyPostBtn:hover, .deletePostBtn:hover{
+	color:#5bc0de;
+}
+.postMenu{
+	color:blue;
+	font-weight:bold;
+	margin-left:80px;
+}
+.postMenu:hover, .postMenu:active, .postMenu:focus{
+	text-decoration:none;
+	
+}
+.commentText{
+	width:320px;
+	height:60px;
+	margin:10px;
+}
+textarea{
+	resize:none;
+}
+#tab {
+	width: 20px;
+	background-color: #C40001;
+	float: right;
+}
+
+div.postDiv ul.sub-wrapper
+{ 
+	display: none; 
+	margin: 0;
+	padding: 0; 
+	position: absolute; 
+	border: 1px solid #eaeaea; 
+	background: #FFF;  
+	padding: 10px 15px; 
+	z-index: 49;
+}
+div.postDiv ul.sub-wrapper li{
+	display: block; 
+}
+div.postDiv ul.sub-wrapper a{
+	font-family: NanumGothic; 
+	font-size: 15px; 
+	line-height: 34px; 
+	color: #000;
+}
+
+/*¤·¤¤¤©¤¤¤·¤©¤·¤¤¤©¤¤¤·¤©Ãß°¡ÇÑ°Å´ç¤·¤©¤¤¤·¤©¤¤¤·¤©¤¤¤·¤©*/
+#profileMain{
+	background-color:white;
+	margin-top:100px;
+	margin-left:30px;
+	text-align: left;
+	border:1px solid wight;
+	position:absolute;
+	width:160px;
+	top:20px;
+	
+}
+#profileImage img{
+	width:150px;
+	height:150px;
+}
+#profile{
+	background-color:white;
+	margin-top:20px;
+	text-align: left;
+	border:1px solid LightGray;
+	position:absolute;
+	width:150px;
+}
+#profileInfo{
+	padding:10px;
+	padding-left:40px;
+}
+#profileName{
+	font-family: "°íµñ";
+	text-align:center;
+	font-weight:bold;
+	font-size: 20px;
+}
+li{
+	list-style-type:none;
+}
+.mymenus{
+	font-family: "°íµñ";
+	font-size:20px;
+	font-style:bold;
+	text-align:center;
+	color:gray;
+	text-decoration:none;
+}
+#information:hover{
+	text-decoration:none;
+}
+.mymenus:hover{
+	color:red;
+	text-decoration:none;
+}
+#mymenu{
+	background-color:white;
+	padding:10px;
+	border:1px solid LightGray;
+	width:150px;
+	position:fixed;
+	top:120px;
+	right:50px;
+}
+#searchPost{
+	background-color:white;
+	padding:10px;
+	text-align:right;
+	border:1px solid LightGray;
+	width:150px;
+	position:fixed;
+	top:250px;
+	right:50px;
+}
+#searchPostForm{
+	display:inline;
+}
+#searchPostText{
+	width:100px;
+	height:23px;
+	border:2px solid #99D6FF;
+	float: left;
+}
+#searchPostBtn{
+	margin:0;
+	width:23px;
+	height:20px;
+}
+#searchPostDateBtn{
+	font-size:11px;
+	margin:5px;
+	width:70px;
+	height:26px;
+}
+#dateSearch{
+	margin-top:10px;
+	font-size:13px;
+	width:120px;
+	height:20px;
+}
+
+/* ÆË¾÷ ·¹ÀÌ¾î S */
+
+.mpopup {
+	position:absolute; overflow:hidden;
+} /* Á¦´ë·Î ¾È¶á´Ù¸é width:100%; height:100%; »ðÀÔ */
+.popupLayer {
+	position:absolute; 
+	left:0; 
+	top:0; width:100%; height:100%; z-index:100; 
+	-ms-filter: alpha(opacity=50); 
+	filter: alpha(opacity=50); 
+	opacity:0.3; 
+	-moz-opacity:0.3;
+}
+.popupLayer .back {
+	position:absolute; 
+	left:0; top:0; width:100%; height:100%; 
+	background:#000; z-index:101;
+}
+
+.popup_box {
+	position:absolute; 
+	left:50%; top:50%; z-index:102; 
+	background:#fff;
+}
+.popup_box .popup_contents {
+	position:absolute; 
+	left:0; top:0; width:100%; height:100%; 
+	z-index:102;
+}
+
+.popupLayer iframe, .popup_box iframe {
+	position:absolute; 
+	left:0; top:0; width:100%; height:100%;
+}
+/* ÆË¾÷ ·¹ÀÌ¾î E */
+#helpHeader img{
+	width:50px;
+	height:70px;
+	float: left;
+	padding: 5px;
+	margin: 1px 15px;
+}
+@import url(http://fonts.googleapis.com/css?family=Sigmar+One);
+#helpHeader h1{
+	font-family: 'Sigmar One', cursive;
+	float: left;
+}
+
+.panel-group{
+	width:400px;
+	margin:0 auto;
+}
+.accordion-toggle{
+	font-size:17px;
+}
+.accordion-toggle:hover{
+	color:red;
+	text-decoration: none;
+}
+#closePop{
+	margin: 25px;
+	margin-left: 40px;
+}
+#profile tr{
+	padding-bottom:10px;
+}
+#profile td{
+	text-align:center;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+#tb{
+	text-align:center;
+}

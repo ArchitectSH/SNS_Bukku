@@ -1,0 +1,62 @@
+@CHARSET "UTF-8";
+header{
+	margin:0 auto;
+	top:0;
+	left:0;
+	background-color:#C40001;
+	height:80px;
+	width:1000px;
+}
+#titleTable{
+	margin:0 auto;
+	margin-top:50px;
+	margin-bottom:80px;
+}
+#mainIcon{
+	margin-top:100px;
+}
+#titleTd{
+	font-family:Showcard Gothic;
+	font-size:80px;
+}
+#titleFooter{
+	margin:0 auto;
+	top:0;
+	left:0;
+	background-color:#C40001;
+	height:80px;
+	width:1000px;
+}
+#welcome{
+	font-size:15px;
+	font-family:"휴먼모음T";
+}
+#loginTable{
+	background-color:#F2F2F2;
+	margin-top:5px;
+	border:1px solid lightblue;
+}
+#loginDiv{
+	text-align:center;
+	margin-top:100px;
+	margin-left:100px;
+	width:350px;
+	height:100px;
+}
+#loginTable td{
+	padding:7px;	
+}
+#bottomTd{
+	text-align:center;
+}
+#joinBtn{
+	margin-top:50px;
+	margin-right:40px;
+}
+#findBtn{
+	margin-top:50px;
+	margin-left:40px;
+}
+form{
+	display:inline;
+}

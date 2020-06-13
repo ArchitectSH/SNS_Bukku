@@ -1,0 +1,117 @@
+section{
+	margin-top:100px;
+}
+
+#settingDiv{
+	margin:0 auto;
+	height:600px;
+	width:500px;
+	border:1px solid lightgray;
+}
+#settingTb tr td{
+	padding: 10px;
+}
+#settingTb tr td h4{
+	margin-top: 40px;
+}
+#settingTb tr td textarea{
+	width:480px;
+}
+/*ㅇㄴㄹㄴㅇㄹㅇㄴㄹㄴㅇㄹ추가한거당ㅇㄹㄴㅇㄹㄴㅇㄹㄴㅇㄹ*/
+#profileMain{
+	background-color:white;
+	margin-left:30px;
+	text-align: left;
+	border:1px solid wight;
+	position:absolute;
+	width:160px;
+	top:100px;
+}
+#mypageImage{
+	width:150px;
+	height:150px;
+}
+#mypageTitle{
+	font-family: "고딕";
+	text-align:center;
+	font-weight:bold;
+	font-size: 20px;
+}
+li{
+	list-style-type:none;
+}
+.mymenus{
+	font-family: "고딕";
+	font-size:20px;
+	font-style:bold;
+	color:gray;
+	text-decoration:none;
+}
+.mymenus:hover{
+	color:red;
+	text-decoration:none;
+}
+#mymenu{
+	background-color:white;
+	padding:10px;
+	border:1px solid LightGray;
+	width:150px;
+	position:absolute;
+	top:100px;
+	right:50px;
+}
+#changeIntro{
+	text-align: right;
+}
+#changeIntroBtn{
+	font-size:13px;
+	margin:5px;
+	width:75px;
+	height:30px;
+}
+#remove{
+	text-align: right;
+}
+#removeBtn{
+	font-size:13px;
+	margin:5px;
+	width:75px;
+	height:30px;
+	align-selt: right;
+}
+
+/*폐지화면*/
+.removePopup{
+	width:100%; height:100%;
+} /* 제대로 안뜬다면 width:100%; height:100%; 삽입 */
+.popupLayer {
+	position:absolute; left:0; top:0; width:100%; height:100%; z-index:100; -ms-filter: alpha(opacity=50); filter: alpha(opacity=50); opacity:0.1; -moz-opacity:0.1;
+	}
+.popupLayer .back {
+	position:absolute; left:0; top:0; width:100%; height:100%; background:#000; z-index:101;
+}
+.popup_contents{
+	font-weight:bold;
+	padding:15px;
+	border:1px solid lightgray;
+	background-color:white;
+}
+.popup_box{
+	position:absolute; left:50%; top:50%; z-index:102; background:#fff;
+	border-radius:15px;
+}
+.popup_box .popup_contents {
+	position:absolute; left:0; top:0; width:100%; height:100%; z-index:102;
+}
+
+.popupLayer iframe, .popup_box iframe {
+	position:absolute; left:0; top:0; width:100%; height:100%;
+}
+
+.password{
+	width:100px;
+}
+#removePageBtn, #cancelremovePageBtn{
+	margin-top:100px;
+	margin-bottom:30px;
+}

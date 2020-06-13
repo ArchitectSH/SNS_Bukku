@@ -1,0 +1,416 @@
+section{
+	width:1024px;
+	position: relative;
+}
+#searchForm{
+	display:inline;
+}
+#title{
+	font-family:"Cooper Black";
+	display:inline;
+	padding-left:15px;
+}
+#followMem{
+	font-size: 20px;
+	color: black;
+}
+#followMem:hover{
+	text-decoration: none;
+	color: red;
+}
+#searchText{
+	margin-left:100px;
+	width:250px;
+	height:23px;
+	border:2px solid #C40001;
+}
+header{
+	position:fixed;	
+	top:0;
+	left:0;
+	z-index:50;
+	background-color:white;
+	padding-bottom:10px;
+	border-bottom:5px solid #C40001;
+	width:1000px;
+}
+section{
+	margin-top:100px;
+}
+#myName{
+	font-size:15px;
+}
+#headerProfile{
+	vertical-align:center;
+	width:40px;
+	height:40px;
+}
+#searchBtn{
+	margin:0;
+	margin-top:30px;
+	margin-right:50px;
+	width:25px;
+	height:20px;
+}
+.topBtn{
+	margin-right:20px;
+	width:30px;
+	height:30px;
+}
+#writeTable{
+	display:inline-block;
+}
+#container{
+	padding-top:30px;
+	height:600px;
+}
+#container a{
+	font-family:"�대㉫紐⑥쓬T";
+	color:white;
+	margin-bottom:30px;
+}
+#writeDiv{
+	margin:0 auto;
+	height:250px;
+	width:500px;
+	border:1px solid lightgray;
+}
+#writeText{
+	margin:20px;
+	height:140px;
+	width:460px;
+}
+.pmBtn{
+	margin-left:10px;
+	width:20px;
+	height:20px;
+	margin-right:15px;
+}
+#imageBtn, #videoBtn{
+	margin-left:40px;
+	width:30px;
+	height:30px;
+}
+#videoBtn{
+	margin-left:30px;
+	margin-right:90px;
+}
+#allBtn, #friendBtn, #secretBtn{
+	vertical-align:top;
+	margin-left:20px;
+	width:35px;
+	height:35px;
+}
+#writeTd{
+	padding-left:15px;
+}
+#allTd, #friendTd, #secretTd{
+	padding-left:22px;
+	font-size:11px;
+	font-weight:bold;
+}
+#writeBtn{
+	width:70px;
+	height:30px;
+}
+.postDiv{
+	padding:5px;
+	border:1px solid lightgray;
+	width:500px;
+	margin:0 auto;
+	margin-top:30px;
+}
+.profileTd{
+	padding-top:10px;
+	padding-left:10px;
+}
+.profile{
+	width:40px;
+	height:40px;
+	vertical-align:top;
+}
+a{
+	text-decoration:none;
+	color:black;
+	font-size:12px;
+}
+.dateCommentTd{
+	color:lightgray;
+	padding-left:10px;
+	font-size:12px;
+}
+.recommendP{
+	
+	margin:0;
+	padding:5px;
+	font-size:12px;
+}
+.nameA{
+	margin-right:270px;
+}
+.recommendForm{
+	display:inline;
+}
+.dateTd{
+	padding-left:10px;
+	margin-right:180px;
+	font-size:12px;
+	color:lightgray;
+}
+.likeA{
+	margin-left:230px;
+}
+.likeNumTd{
+	padding-left:260px;
+	font-size:12px;
+	font-weight:bold;
+}
+.hateNumTd{
+	padding-left:10px;
+	font-size:12px;
+	font-weight:bold;
+}
+.likeBtn, .bukkuBtn, .hateBtn{
+	width:30px;
+	height:30px;
+}
+.public{
+	font-size:12px;
+}
+p{
+	padding:20px;
+	padding-left:15px;
+	font-size:12px;
+}
+.commentTd{
+	padding-top:10px;
+	font-size:12px;
+	font-weight:bold;
+	padding-left:15px;
+}
+.shareTd{
+	padding-top:10px;
+	padding-left:10px;
+	margin:10px;
+	font-size:12px;
+	font-weight:bold;
+}
+#postCheck{
+	background-color:white;
+	padding:10px;
+	text-align:right;
+	border:1px solid lightgray;
+	width:150px;
+	position:absolute;
+	top:20px;
+	right:50px;
+}
+.commentDiv{
+	padding:10px;
+	border:1px solid lightgray;
+	width:500px;
+	margin:0 auto;
+}
+.recommentTable{
+	display:inline-block;
+}
+.postMenu{
+	text-decoration:none;
+	color:blue;
+	font-weight:bold;
+	margin-left:80px;
+}
+/* 硫붾돱 而⑦뀒�대꼫���ㅽ���留덉슦���대깽�몄뿉 �곕Ⅸ transion���뺤쓽 */
+#menuContainer{
+	padding: 0;
+	margin: 0;
+	background: #C40001;
+	transition: margin 0.3s ease-in;
+	-webkit-transition: margin 0.3s ease-in;
+	-moz-transition: margin 0.3s ease-in;
+	-o-transition: margin 0.3s ease-in;
+	position:fixed;
+	z-index:100;
+	top:80px;
+}
+img{
+	margin:5px;
+}
+.commentText{
+	width:320px;
+	height:60px;
+	margin:10px;
+}
+textarea{
+	resize:none;
+}
+/*硫붾돱 ���ㅽ���float�뺤떇���댁슜���ㅻⅨ履쎌쑝濡��먮Ⅴ寃��쒕떎.*/
+#tab {
+	width: 20px;
+	background-color: #C40001;
+	float: right;
+}
+
+/*留덉슦���ㅻ쾭���곕Ⅸ �ㅽ���吏�젙 */
+#menuContainer:hover #tab {
+}
+
+#menuContainer #container a {
+	text-align:center;
+	text-decoration: none;
+	font-size: 30px;
+	display: block;
+	padding: 3px;
+	border-bottom: none;
+}
+
+#menuContainer a:hover {
+	text-decoration: none;
+}
+
+header#titleHeader ul.sub-wrapper 
+{ 
+	display: none; 
+	margin: 0;
+	padding: 0; 
+	position: absolute; 
+	border: 1px solid #eaeaea; 
+	background: #FFF;  
+	padding: 10px 15px; 
+	z-index: 50;
+}
+header#titleHeader ul.sub-wrapper li { 
+	display: block; 
+}
+header#titleHeader ul.sub-wrapper a {
+	font-family: NanumGothic; 
+	font-size: 15px; 
+	line-height: 34px; 
+	color: #000;
+}
+
+header#titleHeader ul.setting { 
+	bottom: -215px;
+	right: 54px; 
+}
+
+div.postDiv ul.sub-wrapper
+{ 
+	display: none; 
+	margin: 0;
+	padding: 0; 
+	position: absolute; 
+	border: 1px solid #eaeaea; 
+	background: #FFF;  
+	padding: 10px 15px; 
+	z-index: 50;
+}
+div.postDiv ul.sub-wrapper li{
+	display: block; 
+}
+div.postDiv ul.sub-wrapper a{
+	font-family: NanumGothic; 
+	font-size: 15px; 
+	line-height: 34px; 
+	color: #000;
+}
+
+
+/*ㅇㄴㄹㄴㅇㄹㅇㄴㄹㄴㅇㄹ추가한거당ㅇㄹㄴㅇㄹㄴㅇㄹㄴㅇㄹ*/
+#profileMain{
+	background-color:white;
+	margin-left:30px;
+	text-align: left;
+	border:1px solid wight;
+	position:absolute;
+	width:160px;
+	top:100px;
+}
+#mypageImage{
+	width:150px;
+	height:150px;
+	margin-bottom: 10px;
+}
+#introduction{
+	background-color:white;
+	margin-top:20px;
+	padding: 20px;
+	text-align: center;
+	border:1px solid LightGray;
+	position:absolute;
+	width:150px;
+}
+#mypageTitle{
+	font-family: "고딕";
+	text-align:center;
+	font-weight:bold;
+	font-size: 20px;
+}
+#followerTb{
+	background-color:white;
+	margin-top:160px;
+	font-size:20px;
+	text-align: center;
+	border:1px solid LightGray;
+	position:absolute;
+	width:150px;
+}
+li{
+	list-style-type:none;
+}
+.mymenus{
+	font-family: "고딕";
+	font-size:20px;
+	font-style:bold;
+	color:gray;
+	text-decoration:none;
+}
+.mymenus:hover{
+	color:red;
+	text-decoration:none;
+}
+#mymenu{
+	background-color:white;
+	padding:10px;
+	border:1px solid LightGray;
+	width:150px;
+	position:absolute;
+	top:100px;
+	right:50px;
+}
+#searchPost{
+	background-color:white;
+	padding:10px;
+	text-align:right;
+	border:1px solid LightGray;
+	width:150px;
+	position:absolute;
+	top:230px;
+	right:50px;
+}
+#searchPostForm{
+	display:inline;
+}
+#searchPostText{
+	width:100px;
+	height:23px;
+	border:2px solid #99D6FF;
+	float: left;
+}
+#searchPostBtn{
+	margin:0;
+	width:23px;
+	height:20px;
+}
+#searchPostDateBtn{
+	font-size:11px;
+	margin:5px;
+	width:70px;
+	height:26px;
+}
+#dateSearch{
+	margin-top:10px;
+	font-size:9px;
+	width:120px;
+	height:15px;
+}

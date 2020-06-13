@@ -1,0 +1,325 @@
+@CHARSET "UTF-8";body {
+	margin:0 auto;
+}
+section{
+	width:1024px;
+	position: relative;
+}
+#searchForm{
+	display:inline;
+}
+#title{
+	font-family:"Cooper Black";
+	display:inline;
+	padding-left:15px;
+}
+#searchText{
+	margin-left:100px;
+	width:250px;
+	height:23px;
+	border:2px solid #C40001;
+}
+header{
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:50;
+	background-color:white;
+	padding-bottom:10px;
+	border-bottom:5px solid #C40001;
+	width:1000px;
+}
+section{
+	margin-top:100px;
+}
+#searchBtn{
+	margin:0;
+	margin-top:30px;
+	margin-right:100px;
+	width:25px;
+	height:20px;
+}
+.topBtn{
+	margin-right:20px;
+	width:30px;
+	height:30px;
+}
+#writeTable{
+	display:inline-block;
+}
+#container{
+	padding-top:30px;
+	height:600px;
+}
+#container a{
+	font-family:"휴먼모음T";
+	color:white;
+	margin-bottom:30px;
+}
+#writeDiv{
+	margin:0 auto;
+	height:200px;
+	width:400px;
+	border:1px solid gray;
+}
+#writeText{
+	margin:20px;
+	height:100px;
+	width:350px;
+}
+.pmBtn{
+	margin-left:10px;
+	width:20px;
+	height:20px;
+	margin-right:15px;
+}
+#imageBtn, #videoBtn{
+	margin-left:15px;
+	width:30px;
+	height:30px;
+}
+#videoBtn{
+	margin-right:70px;
+}
+#allBtn, #friendBtn, #secretBtn{
+	vertical-align:top;
+	margin-left:10px;
+	width:35px;
+	height:35px;
+}
+#writeTd{
+	padding-left:10px;
+}
+#allTd, #friendTd, #secretTd{
+	padding-left:12px;
+	font-size:11px;
+	font-weight:bold;
+}
+#writeBtn{
+	width:70px;
+	height:30px;
+}
+.postDiv{
+	border:1px solid gray;
+	width:400px;
+	margin:0 auto;
+	margin-top:30px;
+}
+.profile{
+	width:40px;
+	height:40px;
+}
+a{
+	text-decoration:none;
+	color:black;
+	font-size:12px;
+}
+.profile{
+	vertical-align:top;
+}
+.dateCommentTd{
+	color:gray;
+	padding-left:10px;
+	font-size:12px;
+}
+.recommendP{
+	
+	margin:0;
+	padding:5px;
+	font-size:12px;
+}
+.nameA{
+	margin-right:200px;
+}
+.recommendForm{
+	display:inline;
+}
+.dateTd{
+	margin-right:180px;
+	font-size:12px;
+	color:gray;
+}
+.likeA{
+	margin-left:150px;
+}
+.likeNumTd{
+	padding-left:180px;
+	font-size:12px;
+	font-weight:bold;
+}
+.hateNumTd{
+	padding-left:10px;
+	font-size:12px;
+	font-weight:bold;
+}
+.likeBtn, .bukkuBtn, .hateBtn{
+	width:30px;
+	height:30px;
+}
+.public{
+	font-size:12px;
+}
+p{
+	padding:5px;
+	padding-left:10px;
+	font-size:12px;
+}
+.commentTd{
+	margin:10px;
+	font-size:12px;
+	font-weight:bold;
+	padding:5px;
+}
+.shareTd{
+	margin:10px;
+	font-size:12px;
+	font-weight:bold;
+	padding:5px;
+}
+#postCheck{
+	background-color:white;
+	padding:10px;
+	text-align:right;
+	border:1px solid gray;
+	width:150px;
+	position:absolute;
+	top:100px;
+	right:50px;
+}
+.commentDiv{
+	border:1px solid gray;
+	width:400px;
+	margin:0 auto;
+}
+.recommentTable{
+	display:inline-block;
+}
+/* 메뉴 컨테이너용 스타일 마우스 이벤트에 따른 transion을 정의 */
+#menuContainer{
+	padding: 0;
+	margin: 0;
+	background: #C40001;
+	transition: margin 0.3s ease-in;
+	-webkit-transition: margin 0.3s ease-in;
+	-moz-transition: margin 0.3s ease-in;
+	-o-transition: margin 0.3s ease-in;
+	position:fixed;
+	top:80px;
+}
+img{
+	margin:5px;
+}
+.commentText{
+	width:250px;
+	margin:10px;
+}
+textarea{
+	resize:none;
+}
+/*메뉴 탭 스타일 float형식을 이용해 오른쪽으로 흐르게 한다.*/
+#tab {
+	width: 20px;
+	background-color: #C40001;
+	float: right;
+}
+
+/*마우스 오버에 따른 스타일 지정 */
+#menuContainer:hover #tab {
+}
+
+#menuContainer #container a {
+	text-align:center;
+	text-decoration: none;
+	font-size: 30px;
+	display: block;
+	padding: 3px;
+	border-bottom: none;
+}
+
+#menuContainer a:hover {
+	text-decoration: none;
+}
+
+header#titleHeader ul.sub-wrapper
+{
+	display: none; 
+	margin: 0;
+	padding: 0; 
+	position: absolute; 
+	border: 1px solid #eaeaea; 
+	background: #FFF;  
+	padding: 10px 15px; 
+	z-index: 50;
+}
+header#titleHeader ul.sub-wrapper li { 
+	display: block; 
+}
+header#titleHeader ul.sub-wrapper a {
+	font-family: NanumGothic; 
+	font-size: 15px; 
+	line-height: 34px; 
+	color: #000;
+}
+
+header#titleHeader ul.settings { 
+	bottom: -215px;
+	right: 54px; 
+}
+
+/* 여기부터 달라지는 부분  */
+header#titleHeader table.sub-wrapper
+{
+	display: none; 
+	margin: 0;
+	padding: 0; 
+	position: absolute; 
+	border: 1px solid #eaeaea; 
+	background: #FFF;  
+	padding: 10px 15px; 
+	z-index: 50;
+	
+	
+}
+header#titleHeader table.sub-wrapper tr { 
+	display: block; 
+}
+}
+header#titleHeader table.sub-wrapper a {
+	font-family: NanumGothic; 
+	font-size: 15px; 
+	line-height: 34px; 
+	color: #000;
+}
+
+header#titleHeader table.alarms { 
+	bottom: -530px;
+	right: 60px; 
+	width:370px;
+	height:530px;
+	background:rgb(242,242,242);
+	border:1px solid lightgray;
+
+}
+
+header#titleHeader table.alarms tr{
+	padding:5px;
+	background:rgb(248,248,248);
+	border:1px solid rgb(237,237,237);
+	color:gray;
+	
+}
+header#titleHeader table.alarms tr td span{
+	font-weight:bold;
+}
+
+#alarmName{
+	font-weight:bold;
+}
+.profileS{
+	width:60px;
+	height:60px;
+}
+
+header#titleHeader table.alarms tr td div{
+	color:gray;
+}

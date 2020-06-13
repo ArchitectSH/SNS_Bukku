@@ -1,0 +1,90 @@
+@CHARSET "UTF-8";
+
+/* 여기부터 달라지는 부분  */
+.tb{
+	text-align:center;
+}
+
+.myName{
+	font-size:27px;
+	color:gray;
+	margin-left:30px;
+
+/* 	text-align:center; */
+	/* margin-right:200px;  */
+}
+.myProfile{
+	margin-left:30px;
+	width:130px;
+	height:130px;
+	
+}
+#myProfileInfo{
+	border:solid lightgray 1px;
+	border-radius:2px;
+	margin:0px
+	width:80%;	 
+	margin-top:100px;
+}
+.profileInfo{
+	color:gray;
+	font-size:14px;
+	padding:10px;
+	/* margin-left:10px;	 */
+}
+
+/* 섹션관련 */
+#profileSection{
+	background-color:white;
+	margin-left:30px;
+	text-align: left;
+	position:absolute;
+	width:160px;
+	top:120px;
+	z-index:-5;
+	
+}
+#mainSection{
+	/* border:1px solid black; */
+	width:48%;
+	height:50px;	
+	position:absolute;
+	top:20px;
+	left:260px;
+/* 	margin-left:25px; */
+	margin:0 auto;
+	/* padding-left:30px; */
+}
+.sectionDisplay{
+	display:inline;
+	float: left; 
+}
+#modifyProfileButton{
+	width:80%;
+	margin-left:30px;
+	
+}
+.mymenus{
+	font-family: "고딕";
+	font-size:20px;
+	font-style:bold;
+	text-align:center;
+	color:gray;
+	text-decoration:none;
+}
+.mymenus:hover{
+	color:red;
+	text-decoration:none;
+}
+#mymenu li{
+	list-style-type:none;
+}
+#mymenu{
+	background-color:white;
+	padding:10px;
+	border:1px solid LightGray;
+	width:150px;
+	position:absolute;
+	top:120px;
+	right:50px;
+}

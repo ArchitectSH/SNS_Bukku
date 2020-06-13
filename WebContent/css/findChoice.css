@@ -1,0 +1,64 @@
+@CHARSET "UTF-8";
+header{
+	margin:0 auto;
+	top:0;
+	left:0;
+	background-color:#C40001;
+	height:80px;
+	width:1000px;
+}
+#titleTable{
+	margin:0 auto;
+	margin-top:51px;
+	margin-bottom:78px;
+}
+#title{
+	margin:0;
+	margin-top:13px;
+	font-family:Showcard Gothic;
+	font-size:80px;
+}
+#titleFooter{
+	margin:0 auto;
+	top:0;
+	left:0;
+	background-color:#C40001;
+	height:80px;
+	width:1000px;
+}
+#choiceDiv{
+	font-size:15px;
+	font-family:"휴먼모음T";
+	margin:15px;
+}
+#findDiv{
+	margin-left:100px;
+	margin-top:20px;
+	padding-top:80px;
+	width:350px;
+	height:339px;
+}
+#findTable{
+	margin:0 auto;
+	background-color:#F2F2F2;
+	border:1px solid lightblue; 
+}
+#choiceTd{
+	text-align:center;
+}
+#idSelect{
+	margin-right:10px;
+}
+#bottomTd{
+	text-align:center;
+}
+#findBtn{
+	margin-right:25px;
+}
+form{
+	display:inline;
+	margin:0;
+}
+#findTable td{
+	padding:15px;
+}		

@@ -1,0 +1,258 @@
+#allDiv{
+	margin-top:120px;
+}
+#writeTable, .modifyTable{
+	display:inline-block;
+}
+
+#writeDiv{
+	margin:0 auto;
+	height:250px;
+	width:500px;
+	border:1px solid lightgray;
+}
+.modifyDiv{
+	border:0px;
+}
+#writeText, .modifyText{
+	margin:20px;
+	height:140px;
+	width:460px;
+}
+.pmBtn{
+	margin-left:10px;
+	width:20px;
+	height:20px;
+	margin-right:15px;
+}
+#imageBtn, #videoBtn{
+	margin-left:40px;
+	width:30px;
+	height:30px;
+}
+#videoBtn{
+	margin-left:30px;
+	margin-right:110px;
+}
+.allBtn, .friendBtn, .secretBtn{
+	vertical-align:top;
+	margin-left:20px;
+	width:35px;
+	height:35px;
+}
+#writeTd, .modifyTd{
+	padding-left:15px;
+}
+.allTd, .friendTd, .secretTd{
+	padding-left:22px;
+	font-size:11px;
+	font-weight:bold;
+}
+.postDiv{
+	padding:5px;
+	border:1px solid lightgray;
+	width:500px;
+	margin:0 auto;
+	margin-top:30px;
+}
+.profileTd{
+	padding-top:10px;
+	padding-left:10px;
+}
+.profile{
+	width:40px;
+	height:40px;
+	vertical-align:top;
+}
+a{
+	text-decoration:none;
+	color:black;
+	font-size:12px;
+}
+.dateCommentTd{
+	color:RGB(140,140,140);
+	padding-left:10px;
+	font-size:12px;
+}
+.recommendP{
+	margin:0;
+	padding:5px;
+	font-size:12px;
+}
+#nameA{
+	margin-right:270px;
+	color:black;
+}
+#guestNameA{
+	margin-right:220px;
+	color:black;
+}
+#guestWriterA{
+	color:black;
+}
+#f1, #f2{
+	width:70px;
+	height:21px;
+	margin-left:2px;
+	position: absolute;
+	opacity:0.0;
+	filter:alpha(opacity=0);}
+}
+#f2{
+	margin-right:150px;
+}
+.likeTd{
+	font-size:12px;
+}
+.postImgDiv{
+	width:500px;
+	text-align:center;
+}
+.postImg{
+	margin:0 auto;
+	width:300px;
+	height:300px;
+}
+.recommendForm{
+	display:inline;
+}
+#editCommentImg{
+	width:10px;
+	height:15px;
+	vertical-align:center;
+}
+.deleteCommentBtn{
+	color:red;
+	background:white;
+	border:0px;
+	text-decoration:none;
+}
+#editComment{
+	margin-left:220px;
+}
+#newEditComment{
+	margin-left:310px;
+}
+.dateTd{
+	padding-left:10px;
+	margin-right:200px;
+	font-size:12px;
+	color:RGB(140,140,140);
+}
+.likeBtn,  .hateBtn{
+	width:35px;
+	height:35px;
+	margin:5px;
+}	
+.bukkuBtn{
+	width:45px;
+	height:35px;
+}
+.likeBtn{
+	margin-left:230px;
+}
+.likeNumTd{
+	padding-left:265px;
+	font-size:12px;
+	font-weight:bold;
+}
+.hateNumTd{
+	padding-left:20px;
+	font-size:12px;
+	font-weight:bold;
+}
+.likeImg, .bukkuImg, .hateImg{
+	width:30px;
+	height:30px;
+}
+.public{
+	font-size:12px;
+	padding-left:40px;
+}
+p{
+	padding:20px;
+	padding-left:15px;
+	font-size:12px;
+}
+.commentTd{
+	padding-top:10px;
+	font-size:12px;
+	font-weight:bold;
+	padding-left:15px;
+}
+.shareTd{
+	padding-top:10px;
+	padding-left:10px;
+	margin:10px;
+	font-size:12px;
+	font-weight:bold;
+}
+#postCheck{
+	background-color:white;
+	padding:10px;
+	text-align:right;
+	border:1px solid lightgray;
+	width:150px;
+	position:absolute;
+	top:120px;
+	right:50px;
+}
+.commentDiv{
+	padding:10px;
+	border:1px solid lightgray;
+	width:500px;
+	margin:0 auto;
+}
+.recommendTable{
+	display:inline-block;
+}
+.modifyPostBtn, .deletePostBtn{
+	background:white;
+	border:0px;
+}
+.modifyPostBtn:hover, .deletePostBtn:hover{
+	color:#5bc0de;
+}
+.postMenu{
+	color:blue;
+	font-weight:bold;
+	margin-left:80px;
+}
+.postMenu:hover, .postMenu:active, .postMenu:focus{
+	text-decoration:none;
+	
+}
+.commentText{
+	width:320px;
+	height:60px;
+	margin:10px;
+}
+textarea{
+	resize:none;
+}
+#tab {
+	width: 20px;
+	background-color: #C40001;
+	float: right;
+}
+
+div.postDiv ul.sub-wrapper
+{ 
+	display: none; 
+	margin: 0;
+	padding: 0; 
+	position: absolute; 
+	border: 1px solid #eaeaea; 
+	background: #FFF;  
+	padding: 10px 15px; 
+	z-index: 49;
+}
+div.postDiv ul.sub-wrapper li{
+	display: block; 
+}
+div.postDiv ul.sub-wrapper a{
+	font-family: NanumGothic; 
+	font-size: 15px; 
+	line-height: 34px; 
+	color: #000;
+}

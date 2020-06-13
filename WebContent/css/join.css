@@ -1,0 +1,68 @@
+@CHARSET "UTF-8";
+header{
+	margin:0 auto;
+	top:0;
+	left:0;
+	background-color:#C40001;
+	height:80px;
+	width:1000px;
+}
+#joinCaption{
+	font-size:15px;
+	font-family:"휴먼모음T";
+	background:#F2F2F2;
+	border:1px solid lightblue;
+	border-bottom:0px;
+}
+#titleTable{
+	margin:0 auto;
+	margin-top:51px;
+	margin-bottom:78px;
+}
+#title{
+	margin:0;
+	margin-top:13px;
+	font-family:Showcard Gothic;
+	font-size:80px;
+}
+#titleFooter{
+	margin:0 auto;
+	top:0;
+	left:0;
+	background-color:#C40001;
+	height:80px;
+	width:1000px;
+}
+#joinDiv{
+	margin-left:100px;
+	margin-top:20px;
+	width:350px;
+	height:339px;
+}
+#joinTable{
+	background-color:#F2F2F2;
+	border:1px solid lightblue; 
+	border-top:0px;
+}
+#bottomTd{
+	text-align:center;
+}
+#joinBtn{
+	margin-right:30px;
+}
+form{
+	display:inline;
+	margin:0;
+}
+#joinTable td{
+	padding:7px;
+}	
+#email{
+	width:100px;
+}
+#phoneNum1, #phoneNum2, #phoneNum3{
+	width:50px;
+}
+#year, #month, #day{
+	width:50px;
+}

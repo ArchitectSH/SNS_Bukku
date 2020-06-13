@@ -1,0 +1,169 @@
+@CHARSET "UTF-8";
+
+#allDiv{
+	width: 1024px;
+	margin-top:100px;
+}
+
+/*ㅇㄴㄹㄴㅇㄹㅇㄴㄹㄴㅇㄹ추가한거당ㅇㄹㄴㅇㄹㄴㅇㄹㄴㅇㄹ*/
+div a{
+	font-size:12px;
+}
+li{
+	list-style-type:none;
+}
+#resultTable{   
+   width:455px;
+   margin-left:-20px;
+ 
+
+}
+#user{
+	width:225px;
+	height:100px;
+	float:left;
+	display:inline;
+}
+
+.mymenus{
+	font-family: "고딕";
+	font-size:20px;
+	font-style:bold;
+	text-align:center;
+	color:gray;
+	text-decoration:none;
+}
+.mymenus:hover{
+	color:red;
+	text-decoration:none;
+}
+#mymenu{
+	background-color:white;
+	padding:10px;
+	border:1px solid LightGray;
+	width:150px;
+	position:absolute;
+	top:120px;
+	right:50px;
+}
+
+/*추가된 부분(장영은)*/
+#myFriendsDiv{
+	margin-left:200px;
+	width:500px;
+}
+#allTable td{
+	vertical-align:top;
+}
+#resultTable td{
+	padding:10px;
+}
+.nameB{
+	color:black;
+	font-weight:bold;
+	padding-top:8px;
+	font-size:17px;
+}
+.profileM{
+	width:70px;
+	height:70px;
+}
+.friendTb{
+	width:45%;
+	display:inline;
+	margin-left:23px;		
+}
+.friendTb td{
+	text-align:center;
+	padding:0px;
+	/* border:1px solid blue; */
+}
+
+
+.friendTb tr td ul.sub-wrapper 
+{ 
+	display: none; 
+	margin-top: -10px;
+	margin-left: 5px;
+	padding: 0; 
+	position: absolute; 
+	border: 1px solid #eaeaea; 
+	background: #FFF;  
+	padding: 10px 15px; 
+	z-index: 50;
+}
+.friendTb tr td ul.sub-wrapper li { 
+	display: block; 
+}
+.friendTb tr td ul.sub-wrapper a {
+	font-family: NanumGothic; 
+	font-size: 15px; 
+	line-height: 34px; 
+	color: #000;
+}
+.btnTd{
+	width:100px;
+}
+
+
+
+#joinCaption{
+	font-size:15px;
+	font-family:"휴먼모음T";
+	background:#F2F2F2;
+	border:1px solid lightblue;
+	border-bottom:0px;
+}
+#joinDiv{
+	margin-left:7px;
+	margin-top:20px;
+	width:350px;
+	height:349px;
+}
+#joinTable{
+	background-color:#F2F2F2;
+	border:1px solid lightblue; 
+	border-top:0px;
+}
+#bottomSearchTd{
+	text-align:center;
+}
+form{
+	margin:0;
+}
+
+#joinTable td{
+	padding:7px;
+}	
+#email{
+	width:100px;
+}
+#phoneNum1, #phoneNum2, #phoneNum3{
+	width:50px;
+}
+#year, #month, #day{
+	width:50px;
+}
+
+#noResult{
+	font-size:20px;
+	font-weight:bold;
+	margin-left:100px;
+	margin-top:200px;
+		
+}
+
+#noResult span{
+	font-size:17px;
+	color:gray;
+	margin-left:14px;
+	
+}
+
+#searchPage{
+	font-size:20px;
+	font-weight:bold;
+	margin-top:200px;
+	margin-left:100px;
+}
+

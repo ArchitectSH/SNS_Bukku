@@ -1,0 +1,135 @@
+#allDiv{
+	margin-top:100px;
+}
+#img{
+	margin-left:20px;
+	width:130px;
+	height:130px;
+}
+
+/*ㅇㄴㄹㄴㅇㄹㅇㄴㄹㄴㅇㄹ추가한거당ㅇㄹㄴㅇㄹㄴㅇㄹㄴㅇㄹ*/
+#profileMain{
+	background-color:white;
+	margin-top:100px;
+	margin-left:30px;
+	text-align: left;
+	border:1px solid wight;
+	position:absolute;
+	width:160px;
+	top:20px;
+	z-index:-5;
+}
+#profileImage{
+	width:150px;
+	height:150px;
+}
+#profile{
+	background-color:white;
+	margin-top:20px;
+	text-align: left;
+	border:1px solid LightGray;
+	position:absolute;
+	width:160px;
+}
+#profileInfo{
+	padding:10px;
+	padding-left:40px;
+}
+#profileName{
+	font-family: "고딕";
+	text-align:center;
+	font-weight:bold;
+	font-size: 20px;
+}
+li{
+	list-style-type:none;
+}
+.mymenus{
+	font-family: "고딕";
+	font-size:20px;
+	font-style:bold;
+	text-align:center;
+	color:gray;
+	text-decoration:none;
+}
+.mymenus:hover{
+	color:red;
+	text-decoration:none;
+}
+#mymenu{
+	background-color:white;
+	padding:10px;
+	border:1px solid LightGray;
+	width:150px;
+	position:absolute;
+	top:120px;
+	right:50px;
+}
+#searchPost{
+	background-color:white;
+	padding:10px;
+	text-align:right;
+	border:1px solid LightGray;
+	width:150px;
+	position:absolute;
+	top:150px;
+	right:50px;
+}
+#searchPostForm{
+	display:inline;
+}
+#searchPostText{
+	width:110px;
+	height:23px;
+	border:2px solid #99D6FF;
+}
+#searchPostBtn{
+	margin:0;
+	width:23px;
+	height:20px;
+}
+#searchPostDateBtn{
+	font-size:13px;
+	margin:8px;
+	width:80px;
+	height:35px;
+}
+
+/*추가된 부분(장영은)*/
+#profileModifyDiv{
+	margin:0 auto;
+	height:500px;
+	width:500px;
+	border:1px solid LightGray;
+}
+#profileModifyCaption{
+	font-size:20px;
+	font-weight:bold;
+}
+
+#profileModifyDiv2{
+	margin:17px 30px;
+	border-top:0px;
+}
+#bottomTd{
+	text-align:center;
+}
+#profileModifyBtn{
+	margin-right:30px;
+}
+form{
+	display:inline;
+	margin:0;
+}
+#profileModifyDiv2 div{
+	margin:30px 20px;
+}
+.profileTitle{
+	font-weight:bold;
+	font-size:18px;
+}
+.profileM{
+	width:100px;
+	height:100px;
+}
+
