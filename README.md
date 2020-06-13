@@ -5,7 +5,7 @@ This project has been in progress for a month since January 2015.
 
 In addition to basic SNS functions, there are two differentiating functions for the purpose of privacy protection.
 
-Detail Video: https://blog.naver.com/wltmdgk/22035399774
+Detail Video: https://blog.naver.com/wltmdgk/220353997742
 
 ### 1.'Just Like'
 
